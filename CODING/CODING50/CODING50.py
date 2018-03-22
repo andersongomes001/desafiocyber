@@ -1,17 +1,15 @@
 import socket, re
-def max_num_in_list( list ):
-    max = list[ 0 ]
+
+def maximo(data):
+    t = str(bytes(data).decode()).replace('[', '').replace(']', '').replace(' ', '')
+    list = t.split(',')
+    max = list[0]
     for a in list:
         a = int(a)
         max = int(max)
         if a > max:
             max = a
     return max
-
-def maximo(data):
-    t = str(bytes(data).decode()).replace('[', '').replace(']', '').replace(' ', '')
-    t = t.split(',')
-    return max_num_in_list(t)
 
 def start():
     start = "start"
