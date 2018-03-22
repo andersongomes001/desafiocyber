@@ -1,0 +1,5 @@
+ Verifique todos os pacotes do protocolo TELNET
+ pegue o login e senha
+ login: root 
+ senha: T3LN3T_N_C4R4    
+ EY{T3LN3T_N_C4R4}
